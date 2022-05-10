@@ -16,4 +16,5 @@ opkg install /tmp/luci-app-openclash_*.ipk
 mkdir -p /etc/openclash/core/
 cd /etc/openclash/core/
 clash_main_url=$(curl -sL https://api.github.com/repos/vernesong/OpenClash/releases/tags/Clash | grep /clash-linux-mipsle-softfloat | sed 's/.*url\": \"//g' | sed 's/\"//g')
-wget $clash_main_url && tar zxvf clash-linux-*.tar.gz && rm -f clash-linux-*.gz
+wget $clash_main_url && tar zxvf clash-linux-*.gz && rm -f clash-linux-*.gz
+chmod +x clash*
