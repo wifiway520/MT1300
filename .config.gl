@@ -1,5 +1,5 @@
 # 2022-05-10 passwall, ssr plus, no samba, and removed luci-app-openclash, updated install-openclash.sh in plugin folder if you want to install openclash.
-# Automatically generated file; DO NOT EDIT.
+# Automatically generated file; DO NOT EDIT. DO
 # OpenWrt Configuration
 #
 CONFIG_MODULES=y
